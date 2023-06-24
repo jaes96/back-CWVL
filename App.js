@@ -21,7 +21,7 @@ app.get("/getTareaEdit/:idTarea", controllers.getTareaEdit);
 app.get("/filtrarTareas", controllers.filtroTareas);
 
 app.listen(PORT, () => {
-  console.log(`SERVIDOR FUNCIONANDO EN EL PUERTO: ${PORT}`);
+  console.log(`SERVIDOR FUNCIONANDO EN EL PUERTO ${PORT}`);
   db();
 });
 
